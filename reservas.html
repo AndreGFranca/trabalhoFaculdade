@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/compartilhado/geral.css" />
+    <link rel="stylesheet" href="./css/paginas/reservas.css" />
+
+    <!-- CSS -->
+    <!-- JS -->
+    <script src="./js/compartilhado/geral.js"></script>
+    <!-- JS -->
+
+    <!-- Font AWESOME -->
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/brands.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/solid.css"
+      rel="stylesheet"
+    />
+    <!-- Font AWESOME -->
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container-geral">
+      <header>
+        <article class="expanded row align-center p-3 menu-escondido">
+          <section class="nav-menu-icon" id="nav-menu-icon">
+            <!-- <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span> -->
+            <img
+              src="./img/compartilhado/logo.png"
+              alt=""
+              class="align-center img-escondida"
+            />
+          </section>
+        </article>
+
+        <nav class="nav-menu">
+          <ul class="flex row">
+            <li
+              class="flex collum align-center align-self-middle p-2 esconder-imagem"
+            >
+              <a href="./index.html" class="none">
+                <img src="./img/compartilhado/logo.png" alt="" class="w-75" />
+              </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./index.html" class="none"> Home</a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./cardapio.html" class="none"> Cardápio </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./reservas.html" class="none"> Reservas </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="" class="none"> Eventos Especiais/Ofertas </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="" class="none"> Buffet </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="" class="none"> Galeria/Fotos </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="" class="none"> Comentários </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="" class="none"> Sobre </a>
+            </li>
+            <li class="flex collum nav-item align-self-middle align-right">
+              <a href="" class="none"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <li class="flex collum nav-item align-self-middle">
+              <a href="" class="none"> Login </a>
+            </li>
+            <li class="flex collum nav-item align-self-middle">
+              <a href="" class="none"> Cadastro </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article class="formulario flex">
+        <form>
+          <fieldset class="linha">
+            <legend class="titulo">Faça sua reserva</legend>
+            <div class="unidade">
+              <h2>Selecione uma de nossas unidades</h2>
+              <select name="unidade" id="cars">
+                <option value="sabor">
+                  Unidade Sabor - Rua dos Sabores, 123 - Bairro Gourmet
+                </option>
+                <option value="paladar">
+                  Unidade Paladar - Avenida do Paladar, 456 - Centro Culinário
+                </option>
+                <option value="chef">
+                  Unidade Chef - Praça dos Chefs, 789 - Vila Gourmet
+                </option>
+              </select>
+            </div>
+            <div class="pessoas">
+              <h2>
+                Quantos amigos te farão companhia nessa experiencia
+                gastronomica?
+              </h2>
+              <select name="unidade" id="cars">
+                <option value="1">Sou um lobo solitário!</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+            <div class="data">
+              <h2>Escolha o dia que nos visitará!</h2>
+              <input type="date" name="data" value="data" />
+              <input type="time" id="horario" name="horario" />
+            </div>
+
+            <div class="mesa">
+              <label for="">Selecione sua mesa</label><br />
+              <input type="radio" id="mesa1" name="mesa" value="mesa1" />
+              <label for="opcao1">Mesa 1</label><br />
+
+              <input type="radio" id="mesa2" name="mesa" value="mesa2" />
+              <label for="opcao1">Mesa 2</label><br />
+
+              <input type="radio" id="mesa3" name="mesa" value="mesa3" />
+              <label for="opcao1">Mesa 3</label><br />
+
+              <input type="radio" id="mesa4" name="mesa" value="mesa4" />
+              <label for="opcao1">Mesa 4</label><br />
+
+              <input type="radio" id="mesa5" name="mesa" value="mesa5" />
+              <label for="opcao1">Mesa 5</label><br />
+
+              <img src="./img/compartilhado/mesas.jpg" alt="" />
+            </div>
+
+            <button class="botao">Agendar</button>
+            <p>
+              Após clicar em "Agendar" sua solicitação de reserva será
+              adicionada ao carrinho, realize o pagamento da reserva para
+              confirmarmos seu agendamento
+            </p>
+          </fieldset>
+        </form>
+      </article>
+      <footer class="flex align-bottom">
+        <section class="footer-container">
+          <article class="footer-content">
+            <article class="footer-section about">
+              <h2>Sobre Nós</h2>
+              <p>Um restaurant do mundo da fantasia</p>
+            </article>
+            <article class="footer-section links">
+              <h2>Links Rápidos</h2>
+
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./cardapio.html">Cardápio</a></li>
+                <li><a href="./reservas.html">Reservas</a></li>
+                <li><a href="./eventos.html">Eventos Especiais/Ofertas</a></li>
+                <li><a href="#">Buffet</a></li>
+                <li><a href="#">Galeria/Fotos</a></li>
+                <li><a href="#">Comentários</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Carrinho</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastro</a></li>
+              </ul>
+            </article>
+            <article class="footer-section contact">
+              <h2>Entre em Contato</h2>
+              <p>Email: nemideia@nemideia.com</p>
+              <p>Telefone: (99) 9 9999-9999</p>
+            </article>
+          </article>
+        </section>
+      </footer>
+    </section>
+  </body>
+</html>

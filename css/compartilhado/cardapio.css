@@ -1,0 +1,17 @@
+body{
+    background-color: #f5f5f5;
+}
+.prato {
+  margin: 50px;
+  align-items: center;
+}
+
+.imagem{
+    margin-right: 50px;
+    height: 275px;
+    width: auto;
+}
+
+li{
+    padding-top: 5px;
+}

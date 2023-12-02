@@ -1,0 +1,48 @@
+.formulario {
+  width: 500px;
+  height: auto;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.linha {
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+legend {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.botao {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  select,
+input[type="date"],
+input[type="time"],
+button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
