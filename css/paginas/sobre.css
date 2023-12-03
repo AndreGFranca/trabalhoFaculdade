@@ -1,3 +1,21 @@
-.conteudo{
-    margin: 50px;
-} 
+.texto-sobre .img {
+    height: 800px;
+    width: auto;
+}
+
+.texto-sobre {
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 13px;
+}
