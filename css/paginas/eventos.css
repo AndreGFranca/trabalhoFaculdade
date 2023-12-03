@@ -1,3 +1,18 @@
 .banner{
     height: 400px;
 }
+
+.img-evento{
+    width: 615px;
+    height: 100%;
+}
+.img-container{
+}
+@media only screen and (max-width: 600px) {
+    .img-evento{
+        width: 100%;
+    }
+    .img-container{
+        width: 100%;
+    }
+}
