@@ -1,0 +1,20 @@
+.login{
+    width: 300px;
+}
+.botao-login{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+    background-color: #6f6f6f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+input{
+    height: 30px;
+}
