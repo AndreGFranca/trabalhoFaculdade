@@ -1,25 +1,22 @@
 .titulo{
-    border-radius: 30px;
-    width: 500px;
-    margin: 0;
-    margin-top: 40px;
-    text-align: center;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    padding-top: 13px;
-    border-color: #333;
+    margin-top: 2.5rem;
+    font-size: 32px;
 }
 
-.imagem-descricao{
-    margin: 20px;
+.caixa{
+    width: 400px;
+    padding-top: 50px;
 }
 
-.imagem-descricao p{
-    margin: 0;
-    margin-top: 40px;
-    text-align: center;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    padding-top: 13px;
-    border-color: #333;
+@media only screen and (max-width: 600px){
+
+    
+.caixa{
+    width: 200px;
+    padding-top: 50px;
+}
+
+.caixa img{
+ width: 200px;
+}
 }
