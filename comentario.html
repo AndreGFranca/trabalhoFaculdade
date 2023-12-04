@@ -1,197 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/compartilhado/geral.css" />
+    <link rel="stylesheet" href="./css/paginas/comentario.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/compartilhado/geral.css" />
-  <link rel="stylesheet" href="./css/paginas/comentario.css" />
+    <!-- CSS -->
+    <!-- JS -->
+    <script src="./js/compartilhado/geral.js"></script>
+    <!-- JS -->
 
-  <!-- CSS -->
-  <!-- JS -->
-  <script src="./js/compartilhado/geral.js"></script>
-  <!-- JS -->
+    <!-- Font AWESOME -->
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/brands.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.2-web/css/solid.css"
+      rel="stylesheet"
+    />
+    <!-- Font AWESOME -->
+    <title>Comentários</title>
+  </head>
 
-  <!-- Font AWESOME -->
-  <link href="./assets/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet" />
-  <link href="./assets/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet" />
-  <link href="./assets/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet" />
-  <!-- Font AWESOME -->
-  <title>Galera</title>
-</head>
-
-<body>
-  <section class="container-geral">
-    <header>
-      <article class="expanded row align-center p-3 menu-escondido bg-color-primary">
-        <section class="nav-menu-icon" id="nav-menu-icon">
-          <!-- <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span> -->
-          <img src="./img/compartilhado/logo.png" alt="" class="align-center img-escondida" />
-        </section>
-
-      </article>
-
-      <nav class="nav-menu">
-        <ul class="flex row">
-          <li class="flex collum align-center align-self-middle p-2 esconder-imagem">
-            <a href="./index.html" class="none">
-              <img src="./img/compartilhado/logo.png" alt="" class="w-75" />
-            </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./index.html" class="none"> Home</a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./cardapio.html" class="none"> Cardápio </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./reservas.html" class="none"> Reservas </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./eventos.html" class="none"> Eventos Especiais/Ofertas </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="" class="none"> Buffet </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./galeria.html" class="none"> Galeria/Fotos </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="" class="none"> Comentários </a>
-          </li>
-          <li class="flex collum align-center align-self-middle">
-            <a href="./sobre.html" class="none"> Sobre </a>
-          </li>
-          <li class="flex collum nav-item align-self-middle align-right">
-            <a href="" class="none"><i class="fa-solid fa-cart-shopping"></i></a>
-          </li>
-          <li class="flex collum nav-item align-self-middle">
-            <a href="./login.html" class="none"> Login </a>
-          </li>
-          <li class="flex collum nav-item align-self-middle">
-            <a href="./cadastro.html" class="none"> Cadastro </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <article class="flex collum ">
-      <article class="titulo bg-color-primary mb-2 text-white flex row ">
-        <p class=" text-center w-100">Comentários</p>
-      </article>
-
-      <div class="align-center flex collum">
-        <div class="flex row wrap">
-
-          <article class="geral flex row wrap">
-
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐⭐⭐</div>
-              <div class="texto">O Hamburguer de Siri é simplesmente incrível! A qualidade dos ingredientes é excelente,
-                e
-                o atendimento é sempre amigável. Recomendo fortemente!
-              </div>
-            </div>
-
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐⭐</div>
-              <div class="texto">A comida é saborosa, especialmente os hambúrgueres, mas achei o tempo de espera um
-                pouco longo durante o horário de pico.
-              </div>
-            </div>
-
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐⭐⭐</div>
-              <div class="texto">Adoro o clima descontraído deste lugar! Os hambúrgueres são deliciosos e o molho de
-                siri é divino. Definitivamente voltarei!
-              </div>
-            </div>
-
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐</div>
-              <div class="texto">A comida é boa, mas o serviço poderia ser mais eficiente. Às vezes, o pedido demora um
-                pouco para chegar à mesa.
-              </div>
-            </div>
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐⭐⭐</div>
-              <div class="texto">Os hambúrgueres são simplesmente incríveis! Ingredientes frescos e sabor inigualável.
-                Adoro este lugar!</div>
-            </div>
-
-
-            <div class="comentarios flex wrap collum">
-              <div class="usuario flex row">
-                <img class="imagem" src="./img/sobre/Bob-esponja.jpg" alt="">
-                <p>Bob-Esponja</p>
-              </div>
-              <div class="estrelas">⭐⭐⭐⭐</div>
-              <div class="texto">Hambúrgueres saborosos e porções generosas, mas achei os preços um pouco altos em
-                comparação com outros lugares da região.
-              </div>
-            </div>
-
-
-          </article>
-        </div>
-      </div>
-
-    </article>
-    <footer class="flex align-bottom">
-      <section class="footer-container">
-        <article class="footer-content">
-          <article class="footer-section about">
-            <h2>Sobre Nós</h2>
-            <p>Um restaurant do mundo da fantasia</p>
-          </article>
-          <article class="footer-section links">
-            <h2>Links Rápidos</h2>
-
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./cardapio.html">Cardápio</a></li>
-              <li><a href="./reservas.html">Reservas</a></li>
-              <li><a href="./eventos.html">Eventos Especiais/Ofertas</a></li>
-              <li><a href="#">Buffet</a></li>
-              <li><a href="./galeria.html">Galeria/Fotos</a></li>
-              <li><a href="#">Comentários</a></li>
-              <li><a href="./sobre.html">Sobre</a></li>
-              <li><a href="#">Carrinho</a></li>
-              <li><a href="./login.html">Login</a></li>
-              <li><a href="./cadastro.html">Cadastro</a></li>
-            </ul>
-          </article>
-          <article class="footer-section contact">
-            <h2>Entre em Contato</h2>
-            <p>Email: nemideia@nemideia.com</p>
-            <p>Telefone: (99) 9 9999-9999</p>
-          </article>
+  <body>
+    <section class="container-geral">
+      <header>
+        <article
+          class="expanded row align-center p-3 menu-escondido bg-color-primary"
+        >
+          <section class="nav-menu-icon" id="nav-menu-icon">
+            <!-- <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span> -->
+            <img
+              src="./img/compartilhado/logo.png"
+              alt=""
+              class="align-center img-escondida"
+            />
+          </section>
         </article>
-      </section>
-    </footer>
-  </section>
-</body>
 
+        <nav class="nav-menu">
+          <ul class="flex row">
+            <li
+              class="flex collum align-center align-self-middle p-2 esconder-imagem"
+            >
+              <a href="./index.html" class="none">
+                <img src="./img/compartilhado/logo.png" alt="" class="w-75" />
+              </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./index.html" class="none"> Home</a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./cardapio.html" class="none"> Cardápio </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./reservas.html" class="none"> Reservas </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./eventos.html" class="none">
+                Eventos Especiais/Ofertas
+              </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./galeria.html" class="none"> Galeria/Fotos </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./comentario.html" class="none"> Comentários </a>
+            </li>
+            <li class="flex collum align-center align-self-middle">
+              <a href="./sobre.html" class="none"> Sobre </a>
+            </li>
+            <li class="flex collum nav-item align-self-middle">
+              <a href="./login.html" class="none"> Login </a>
+            </li>
+            <li class="flex collum nav-item align-self-middle">
+              <a href="./cadastro.html" class="none"> Cadastro </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article class="flex collum">
+        <article class="titulo bg-color-primary mb-2 text-white flex row">
+          <p class="text-center w-100">Comentários</p>
+        </article>
+
+        <div class="align-center flex collum">
+          <div class="flex row wrap">
+            <article class="geral flex row wrap">
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐⭐⭐</div>
+                <div class="texto">
+                  O Hamburguer de Siri é simplesmente incrível! A qualidade dos
+                  ingredientes é excelente, e o atendimento é sempre amigável.
+                  Recomendo fortemente!
+                </div>
+              </div>
+
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐⭐</div>
+                <div class="texto">
+                  A comida é saborosa, especialmente os hambúrgueres, mas achei
+                  o tempo de espera um pouco longo durante o horário de pico.
+                </div>
+              </div>
+
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐⭐⭐</div>
+                <div class="texto">
+                  Adoro o clima descontraído deste lugar! Os hambúrgueres são
+                  deliciosos e o molho de siri é divino. Definitivamente
+                  voltarei!
+                </div>
+              </div>
+
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐</div>
+                <div class="texto">
+                  A comida é boa, mas o serviço poderia ser mais eficiente. Às
+                  vezes, o pedido demora um pouco para chegar à mesa.
+                </div>
+              </div>
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐⭐⭐</div>
+                <div class="texto">
+                  Os hambúrgueres são simplesmente incríveis! Ingredientes
+                  frescos e sabor inigualável. Adoro este lugar!
+                </div>
+              </div>
+
+              <div class="comentarios flex wrap collum">
+                <div class="usuario flex row">
+                  <img
+                    class="imagem"
+                    src="./img/sobre/Bob-esponja.jpg"
+                    alt=""
+                  />
+                  <p>Bob-Esponja</p>
+                </div>
+                <div class="estrelas">⭐⭐⭐⭐</div>
+                <div class="texto">
+                  Hambúrgueres saborosos e porções generosas, mas achei os
+                  preços um pouco altos em comparação com outros lugares da
+                  região.
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </article>
+      <footer class="flex align-bottom">
+        <section class="footer-container">
+          <article class="footer-content">
+            <article class="footer-section about">
+              <h2>Sobre Nós</h2>
+              <p>Um restaurant do mundo da fantasia</p>
+            </article>
+            <article class="footer-section links">
+              <h2>Links Rápidos</h2>
+
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./cardapio.html">Cardápio</a></li>
+                <li><a href="./reservas.html">Reservas</a></li>
+                <li><a href="./eventos.html">Eventos Especiais/Ofertas</a></li>
+                <li><a href="./galeria.html">Galeria/Fotos</a></li>
+                <li><a href="./comentario.html">Comentários</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+              </ul>
+            </article>
+            <article class="footer-section contact">
+              <h2>Entre em Contato</h2>
+              <p>Email: nemideia@nemideia.com</p>
+              <p>Telefone: (99) 9 9999-9999</p>
+            </article>
+          </article>
+        </section>
+      </footer>
+    </section>
+  </body>
 </html>
